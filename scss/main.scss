@@ -1,4 +1,8 @@
 @import "./variables";
+
+@function size-name($name) {
+  @return map-get($size, $name);
+}
 .container {
   margin: 0 auto;
   padding: 5rem;
@@ -9,7 +13,7 @@
   }
   .main {
     color: $text;
-    font-size: map-get($size, large);
+    font-size: size-name(high);
   }
   .main:hover {
     color: $topic-text;
