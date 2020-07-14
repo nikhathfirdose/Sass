@@ -3,14 +3,18 @@
 @function size-name($name) {
   @return map-get($size, $name);
 }
-.container {
-  margin: 0 auto;
-  padding: 5rem;
-  background: $primary;
 
-  .topic {
-    color: $topic-text;
-  }
+@mixin flexCall($direction) {
+  flex-direction: $direction;
+  display: flex;
+}
+.container {
+  @include flexCall(row);
+  margin: 0 auto;
+  padding: 1rem;
+  background: $primary;
+  color: $topic-text;
+
   .main {
     color: $text;
     font-size: size-name(high);
@@ -18,4 +22,7 @@
   .main:hover {
     color: $topic-text;
   }
+}
+.main .item-1 {
+  color: $primary;
 }
