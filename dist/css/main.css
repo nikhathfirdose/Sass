@@ -1,1 +1,19 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+.container {
+  margin: 0 auto;
+  padding: 5rem;
+  background: #333;
+}
+
+.container .topic {
+  color: rgba(0, 195, 255, 0.685);
+}
+
+.container .main {
+  color: #f8eded;
+  font-size: 20px;
+}
+
+.container .main:hover {
+  color: rgba(0, 195, 255, 0.685);
+}
+/*# sourceMappingURL=main.css.map */

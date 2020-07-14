@@ -1,0 +1,24 @@
+$primary: #333;
+$topic-text: rgba(0, 195, 255, 0.685);
+$text: rgb(248, 237, 237);
+
+$size: (
+  "small": 12px,
+  "large": 20px,
+);
+.container {
+  margin: 0 auto;
+  padding: 5rem;
+  background: $primary;
+
+  .topic {
+    color: $topic-text;
+  }
+  .main {
+    color: $text;
+    font-size: map-get($size, large);
+  }
+  .main:hover {
+    color: $topic-text;
+  }
+}
