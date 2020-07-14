@@ -5,7 +5,7 @@
 }
 
 .container .topic {
-  color: rgba(0, 195, 255, 0.685);
+  color: #f5e72d;
 }
 
 .container .main {
@@ -14,6 +14,6 @@
 }
 
 .container .main:hover {
-  color: rgba(0, 195, 255, 0.685);
+  color: #f5e72d;
 }
 /*# sourceMappingURL=main.css.map */
